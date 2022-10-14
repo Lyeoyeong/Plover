@@ -92,7 +92,9 @@
     
     经过预处理，最终得到被分类为21个cluster的592,689个droplets继续下游的分析。 
 
-之后作者确定了每个cluster的标志基因以及做了GO分析，并完成了细胞的注释。作者通过boxplot描述了主要的细胞亚群的变化，同时在scCODA显著的变化中坐着标记了星号。(Supplementary Figure 4)
+之后作者确定了每个cluster的标志基因以及做了GO分析，并完成了细胞的注释。作者通过boxplot描述了主要的细胞亚群的变化，同时在scCODA显著的变化中坐着标记了星号(Supplementary Figure 4)。
+
+
 
 ***
 

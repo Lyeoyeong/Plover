@@ -12,6 +12,8 @@
 
 ## III Bioinformatic Tools
 * [scDRS](tools/zhang2022polygenic.md)
+* [VAM](tools/frost2020variance.md)
+* [CNA](tools/reshef2022co.md)
 
 -----
 * [Appendix](appendix.md)

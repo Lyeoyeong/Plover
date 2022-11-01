@@ -15,6 +15,9 @@
 * [VAM](tools/frost2020variance.md)
 * [CNA](tools/reshef2022co.md)
 
+## IV Talks
+* [KNN](talks/knn.md)
+
 -----
 * [Appendix](appendix.md)
 

@@ -1,0 +1,421 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>KNN · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-cite/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../appendix.html" />
+    
+    
+    <link rel="prev" href="../tools/reshef2022co.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">I Review Articles</li>
+        
+        
+    
+
+    
+        
+        <li class="header">II Research Articles</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" >
+            
+                <span>
+            
+                    
+                    Omics-Based
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../research/chaffin2022single.html">
+            
+                <a href="../research/chaffin2022single.html">
+            
+                    
+                    chaffin2022single
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../research/konieczny2022interleukin.html">
+            
+                <a href="../research/konieczny2022interleukin.html">
+            
+                    
+                    konieczny2022interleukin
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" >
+            
+                <span>
+            
+                    
+                    Others
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">III Bioinformatic Tools</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../tools/zhang2022polygenic.html">
+            
+                <a href="../tools/zhang2022polygenic.html">
+            
+                    
+                    scDRS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../tools/frost2020variance.html">
+            
+                <a href="../tools/frost2020variance.html">
+            
+                    
+                    VAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../tools/reshef2022co.html">
+            
+                <a href="../tools/reshef2022co.html">
+            
+                    
+                    CNA
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IV Talks</li>
+        
+        
+    
+        <li class="chapter active" data-level="5.1" data-path="knn.html">
+            
+                <a href="knn.html">
+            
+                    
+                    KNN
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../appendix.html">
+            
+                <a href="../appendix.html">
+            
+                    
+                    Appendix
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >KNN</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="k-nearest-neighbor-knn-graph">K Nearest Neighbor (KNN) graph</h1>
+<hr>
+<p>&#x6B64;&#x5185;&#x5BB9;&#x6765;&#x81EA;CNA&#x4F5C;&#x8005;&#x5728;Guitub&#x4E2D;&#x653E;&#x7684;&#x89C6;&#x9891;&#x94FE;&#x63A5; <a href="https://www.youtube.com/watch?v=FlFYa79D4dc&amp;t=2405s" target="_blank">https://www.youtube.com/watch?v=FlFYa79D4dc&amp;t=2405s</a></p>
+<p>&#x672C;&#x89C6;&#x9891;&#x6709;2&#x4E2A;&#x90E8;&#x5206;&#xFF1A;&#x8FD9;&#x91CC;&#x5199;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x4ECB;&#x7ECD;KNN&#x7684;&#x7B14;&#x8BB0;&#xFF0C;Meeting&#x90E8;&#x5206;&#x5728;&#x8BB2;CNA&#xFF0C;&#x6240;&#x4EE5;&#x653E;&#x5230;CNA&#x7684;section&#x91CC;&#x4E86;&#x3002;</p>
+<h3 id="1-curse-of-dimensionality-&#x7EF4;&#x6570;&#x8BC5;&#x5492;">1. Curse of dimensionality (&#x7EF4;&#x6570;&#x8BC5;&#x5492;)</h3>
+<p>&#x8FD9;&#x4E2A;&#x90E8;&#x5206;&#x7ED9;&#x4F60;&#x63D0;&#x4F9B;<code>how KNN helps</code>&#x7684;&#x76F4;&#x89C9;&#x3002;</p>
+<p>Curse of dimensionality(&#x7EF4;&#x6570;&#x8BC5;&#x5492;)&#xFF1A;Volume of space grows exponentially with # of dimensions, way faster than the corresponding # of observations (# stands for number). &#x7528;&#x6765;&#x63CF;&#x8FF0;&#x5F53;&#xFF08;&#x6570;&#x5B66;&#xFF09;&#x7A7A;&#x95F4;&#x7EF4;&#x5EA6;&#x589E;&#x52A0;&#x65F6;&#xFF0C;&#x4F53;&#x79EF;&#x4EE5;&#x6307;&#x6570;&#x589E;&#x52A0;&#x7684;&#x96BE;&#x9898;&#x3002; </p>
+<p>&#x5BFC;&#x81F4;&#x7684;&#x95EE;&#x9898;&#x662F;&#xFF0C;&#x89C2;&#x5BDF;&#x503C;&#x5728;&#x7A00;&#x758F;&#x7684;&#x9AD8;&#x7EF4;&#x7A7A;&#x95F4;&#x4E2D;&#xFF0C;&#x4E92;&#x76F8;&#x8DDD;&#x79BB;&#x663E;&#x5F97;&#x975E;&#x5E38;&#x76F8;&#x4F3C;&#xFF0C;&#x5373;distribution of distances between uniformly distributed&#xFF08;&#x5747;&#x5300;&#x5206;&#x5E03;&#xFF09;points in &#x8D85;&#x7ACB;&#x65B9;&#x4F53;[0,1]^d concentrates in a narrow band as d increases. &#x5982;&#x56FE;&#xFF1A;
+<img src="https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/images/c2/cursefigure.png" alt=""></p>
+<p>&#x5728;MNIST&#x6570;&#x636E;&#x4E2D;&#x7684;&#x4F8B;&#x5B50;&#x8868;&#x660E;&#xFF1A;&#x5728;&#x9AD8;&#x7EF4;&#x6570;&#x636E;&#x4E2D;&#xFF0C;distance&#x65E0;&#x6CD5;capture&#x5230;similarity&#xFF0C;&#x9AD8;&#x7EF4;&#x6570;&#x636E;&#x4E2D;&#x7684;distance&#x662F;unintuitive&#x7684;, point&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;&#x975E;&#x5E38;&#x76F8;&#x4F3C;&#xFF0C;&#x5C31;&#x7B97;&#x662F;&#x4ECE;&#x975E;&#x5E38;&#x4E0D;&#x540C;&#x7684;digit&#x4E5F;&#x662F;&#x5982;&#x6B64;&#x3002;</p>
+<p>MNIST&#x6570;&#x636E;sits on a low-D manifold in 784-D space. Here, the true dimensionality of the data can be much lower than its ambient space&#xFF08;&#x5982;MNIST&#x7684;digit&#x6570;&#x636E;&#xFF0C;&#x6216;&#x8005;&#x4EBA;&#x8138;&#x6570;&#x636E;&#xFF09;. &#x5982;&#x56FE;&#xFF1A;
+<img src="https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/images/curse/manifold.png" alt=""></p>
+<p>&#x6B64;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528;&#x4E00;&#x4E2A;graph&#x6765;&#x79BB;&#x6563;&#x5730;&#x8868;&#x793A;&#x8FD9;&#x4E2A;manifold&#x3002;&#x5982;&#x56FE;&#xFF1A;
+<img src="../figures/manifold.png" alt=""></p>
+<h3 id="2-mechanics-of-knn-construction-and-diffusion">2. Mechanics of KNN construction and diffusion</h3>
+<p>&#x5B9A;&#x4E49;KNN neighbor graph: &#x5BF9;&#x4E8E;&#x6BCF;&#x4E2A;observation&#xFF0C;&#x786E;&#x5B9A;K&#x4E2A;&#x8DDD;&#x79BB;&#x6700;&#x8FD1;&#x7684;&#x53E6;&#x5916;&#x7684;observation&#x3002;
+&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528;adjacency matrix&#x6765;&#x8868;&#x793A;KNN&#xFF0C;&#x5982;&#x679C;&#x662F;&#x8BE5;observation&#x7684;KNN&#x5219;&#x4E3A;1&#xFF0C;&#x5426;&#x5219;&#x4E3A;0&#x3002;
+&#x540C;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x8DDD;&#x79BB;&#x5BF9;&#x6BCF;&#x4E2A;edge&#x6765;&#x8D4B;&#x4E88;&#x6743;&#x91CD;&#x3002;&#x4ECE;&#x800C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;Affinity matrix&#xFF08;&#x6709;&#x6743;&#x91CD;&#x7684;adjacency matrix&#xFF09;&#x3002;</p>
+<p>&#xFF08;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x89C4;&#x5B9A;K&#x6570;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x89C4;&#x5B9A;distance&#x7684;threshold&#x6765;&#x5B9A;&#x4E49;neighbors&#x5462;&#xFF1F;&#x53EF;&#x80FD;&#x662F;&#x4E3A;&#x4E86;&#x8BA9;&#x6BD4;&#x8F83;&#x8FDC;&#x7684;&#x70B9;&#x4E5F;&#x80FD;&#x627E;&#x5230;nearest neighbor&#xFF1F;&#xFF09;</p>
+<p>&#x90A3;&#x4E48;&#xFF0C;&#x5728;t steps&#x4E2D;&#xFF0C;&#x4ECE;node i&#x5230;node j&#x7684;&#x6982;&#x7387;&#x662F;&#x591A;&#x5C11;&#x5462;&#xFF1F;&#x6211;&#x4EEC;&#x628A;Affinity matrix&#x8F6C;&#x5316;&#x4E3A;Markov transition matrix&#x3002;</p>
+<h3 id="3-knn&#x7684;&#x5E94;&#x7528;&#x4ECB;&#x7ECD;&#xFF1A;&#x6570;&#x636E;&#x53BB;&#x566A;&#xFF0C;&#x4F4E;&#x7EAC;&#x5EA6;embedding&#xFF0C;&#x805A;&#x7C7B;">3. KNN&#x7684;&#x5E94;&#x7528;&#x4ECB;&#x7ECD;&#xFF1A;&#x6570;&#x636E;&#x53BB;&#x566A;&#xFF0C;&#x4F4E;&#x7EAC;&#x5EA6;embedding&#xFF0C;&#x805A;&#x7C7B;</h3>
+<h3 id="4-approximating-knns-with-the-annoy-algorithm">4. Approximating KNNs with the &quot;annoy&quot; algorithm</h3>
+<hr>
+<p>&#x53C2;&#x8003;</p>
+<ol>
+<li>KNN lecture from Cornell university: <a href="https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote02_kNN.html" target="_blank">https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote02_kNN.html</a></li>
+<li>Numerical Tours of Data Sciences: <a href="http://www.numerical-tours.com/" target="_blank">http://www.numerical-tours.com/</a></li>
+<li>&#x7EF4;&#x6570;&#x707E;&#x96BE; Wikipedia&#xFF1A;<a href="https://zh.m.wikipedia.org/zh/%E7%BB%B4%E6%95%B0%E7%81%BE%E9%9A%BE" target="_blank">https://zh.m.wikipedia.org/zh/%E7%BB%B4%E6%95%B0%E7%81%BE%E9%9A%BE</a></li>
+<li>&#x77E5;&#x4E4E;&#x4E2D;&#x5173;&#x4E8E;&#x8D85;&#x7ACB;&#x65B9;&#x4F53;&#x7684;&#x8BA8;&#x8BBA;&#xFF1A;<a href="https://www.zhihu.com/question/27140979" target="_blank">https://www.zhihu.com/question/27140979</a></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../tools/reshef2022co.html" class="navigation navigation-prev " aria-label="Previous page: CNA">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../appendix.html" class="navigation navigation-next " aria-label="Next page: Appendix">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"KNN","level":"5.1","depth":1,"next":{"title":"Appendix","level":"6.1","depth":1,"path":"appendix.md","ref":"appendix.md","articles":[]},"previous":{"title":"CNA","level":"4.3","depth":1,"path":"tools/reshef2022co.md","ref":"tools/reshef2022co.md","articles":[]},"dir":"ltr"},"config":{"plugins":["bibtex-cite"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-element":{"elements":[".gitbook-link"]},"bibtex-cite":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"bib":[{"citationKey":"CHAFFIN2022SINGLE","entryType":"ARTICLE","entryTags":{"TITLE":"Single-nucleus profiling of human dilated and hypertrophic cardiomyopathy","AUTHOR":"Chaffin, Mark and Papangeli, Irinna and Simonson, Bridget and Akkad, Amer-Denis and Hill, Matthew C and Arduini, Alessandro and Fleming, Stephen J and Melanson, Michelle and Hayat, Sikander and Kost-Alimova, Maria and others","JOURNAL":"Nature","VOLUME":"608","NUMBER":"7921","PAGES":"174--180","YEAR":"2022","PUBLISHER":"Nature Publishing Group"}},{"citationKey":"ZHANG2022POLYGENIC","entryType":"TECHREPORT","entryTags":{"TITLE":"Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data","AUTHOR":"Zhang, Martin Jinye and Hou, Kangcheng and Dey, Kushal K and Sakaue, Saori and Jagadeesh, Karthik A and Weinand, Kathryn and Taychameekiatchai, Aris and Rao, Poorvi and Pisco, Angela Oliveira and Zou, James and others","YEAR":"2022","INSTITUTION":"Nature Publishing Group"}},{"citationKey":"KONIECZNY2022INTERLEUKIN","entryType":"ARTICLE","entryTags":{"TITLE":"Interleukin-17 governs hypoxic adaptation of injured epithelium","AUTHOR":"Konieczny, Piotr and Xing, Yue and Sidhu, Ikjot and Subudhi, Ipsita and Mansfield, Kody P and Hsieh, Brandon and Biancur, Douglas E and Larsen, Samantha B and Cammer, Michael and Li, Dongqing and others","JOURNAL":"Science","VOLUME":"377","NUMBER":"6602","PAGES":"eabg9302","YEAR":"2022","PUBLISHER":"American Association for the Advancement of Science"}},{"citationKey":"FROST2020VARIANCE","entryType":"ARTICLE","entryTags":{"TITLE":"Variance-adjusted Mahalanobis (VAM): a fast and accurate method for cell-specific gene set scoring","AUTHOR":"Frost, Hildreth Robert","JOURNAL":"Nucleic acids research","VOLUME":"48","NUMBER":"16","PAGES":"e94--e94","YEAR":"2020","PUBLISHER":"Oxford University Press"}},{"citationKey":"RESHEF2022CO","entryType":"ARTICLE","entryTags":{"TITLE":"Co-varying neighborhood analysis identifies cell populations associated with phenotypes of interest from single-cell transcriptomics","AUTHOR":"Reshef, Yakir A and Rumker, Laurie and Kang, Joyce B and Nathan, Aparna and Korsunsky, Ilya and Asgari, Samira and Murray, Megan B and Moody, D and Raychaudhuri, Soumya","JOURNAL":"Nature Biotechnology","VOLUME":"40","NUMBER":"3","PAGES":"355--363","YEAR":"2022","PUBLISHER":"Nature Publishing Group"}}],"gitbook":"*","theme-default":{"showLevel":true}},"file":{"path":"talks/knn.md","mtime":"2022-11-01T19:24:48.798Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-01T19:25:01.704Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

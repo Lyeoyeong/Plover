@@ -68,3 +68,16 @@ CNA确定了在sepsis中扩大的群体。其中44%来自MS1，其他来自MS2�
 与per-cell neighborhood coefficients相关联的基因富集了RAC1激活的基因组（一个已知与sepsis相关的途径）。
 
 CNA在这个数据集中发现了很大的 within-cluster heterogeneity，比如MS4包含一个明显扩大的亚群和明显减少的亚群。
+
+---
+##### 补充：Quantifying inter-sample variation in single-cell data
+
+`此内容来自本文作者在Guitub中放的视频链接 https://www.youtube.com/watch?v=FlFYa79D4dc&t=2405s`
+
+本视频有2个部分：
+
+Primer: Capturing structure in high-dimensional data using K nearest neighbor graphs
+
+Meeting: Quantifying axes of inter-sample variability among transcriptional neighborhoods in single-cell datasets
+
+Primer的内容记在Talks章节里了。

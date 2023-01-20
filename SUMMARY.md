@@ -5,10 +5,11 @@
 ## I Review Articles
 
 ## II Research Articles
-* Omics-Based
+* Box1
     * [chaffin2022single](research/chaffin2022single.md)
     * [konieczny2022interleukin](research/konieczny2022interleukin.md)
-* Others
+* Box2
+    * [yang2022autoimmunity](research/yang2022autoimmunity.md)
 
 ## III Bioinformatic Tools
 * [scDRS](tools/zhang2022polygenic.md)

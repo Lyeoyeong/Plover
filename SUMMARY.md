@@ -7,7 +7,6 @@
 ## II Research Articles
 * Box1
     * [chaffin2022single](research/chaffin2022single.md)
-    * [konieczny2022interleukin](research/konieczny2022interleukin.md)
 * Box2
     * [yang2022autoimmunity](research/yang2022autoimmunity.md)
 

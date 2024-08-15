@@ -1,3 +1,2 @@
-
-https://eli.thegreenplace.net/tag/pygame-tutorial
+# Website Information
 

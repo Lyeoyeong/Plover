@@ -2,21 +2,21 @@
 
 * [Introduction](README.md)
 
-## I Review Articles
+## I Collection
 
-## II Research Articles
-* Box1
-    * [chaffin2022single](research/chaffin2022single.md)
-* Box2
-    * [yang2022autoimmunity](research/yang2022autoimmunity.md)
+* Articles
+    * [Language is primarily a tool for communication rather than thought](contents/articles/evelina2024language.md)
 
-## III Bioinformatic Tools
-* [scDRS](tools/zhang2022polygenic.md)
-* [VAM](tools/frost2020variance.md)
-* [CNA](tools/reshef2022co.md)
+## II Translation
 
-## IV Talks
-* [KNN](talks/knn.md)
+* How the Immune System Works
+    * [Book Information](contents/bHISW/book_info.md)
+* Causal Inference: The Mixtape
+    * [Book Information](contents/bCITM/bCITM_book_info.md)
+* Writing a Game in Python with Pygame
+    * [Website Information](contents/wWGPP/wWGPP_info.md)
+    * [Part 1](contents/wWGPP/wWGPP_part1.md)
+
 
 -----
 * [Appendix](appendix.md)

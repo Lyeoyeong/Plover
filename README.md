@@ -2,6 +2,6 @@
 
 Gitbook Website: https://lyeoyeong.github.io/Plover
 
-Collection of Interesting Book Chapters, Papers, and Talks.
+Notes of Interesting Book Chapters, Papers, and Talks.
 
 Chinese Translation of Selected Articles.

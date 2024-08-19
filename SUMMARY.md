@@ -8,6 +8,7 @@
     * [NumPy](python/numpy/cheatsheet.md)
     * [Pandas](python/pandas/cheatsheet.md)
     * [PyGame](python/pygame/cheatsheet.md)
+        * [Basics](python/pygame/cheatsheet.md)
 
 -----
 * R
@@ -21,8 +22,9 @@
     * [Basics](other/linux/cheatsheet.md)
 
 -----
-* Git
+* Git & Documentation
     * [Git](other/git/cheatsheet.md)
     * [GitHub Pages](other/git/github_pages.md)
     * [Gitbook](other/git/gitbook.md)
+    * [Markdown](other/markdown/cheatsheet.md)
 

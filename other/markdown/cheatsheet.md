@@ -19,20 +19,25 @@
 ## 3. Lists
 ##### Unordered List
 - Use `-`, `*`, or `+` for unordered lists.
+
 ```
 - Item 1
 - Item 2
   - Sub-item 1
   - Sub-item 2
 ```
+
 ##### Ordered List
 - Use numbers followed by a period for ordered lists.
+
 ```
 1. First item
 2. Second item
    1. Sub-item 1
    2. Sub-item 2
+
 ```
+
 ## 4. Links
 - Use `[text](URL)` to create a link.
 ```
@@ -54,9 +59,7 @@
 
 ### Code Blocks
 - Use triple backticks or indentation for code blocks.
-```
-Example: ``` code blocks ```
-```
+
 
 ## 7. Blockquotes
 - Use `>` to create blockquotes.
@@ -67,6 +70,7 @@ Example: ``` code blocks ```
 
 ## 8. Horizontal Rule
 - Use three or more dashes `---`, asterisks `***`, or underscores `___` to create a horizontal rule.
+
 ```
 ---
 ```

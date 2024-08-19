@@ -1,27 +1,28 @@
 # Summary
 
 * [Introduction](README.md)
-* [Gitbook](contents/gitbook.md)
 
 -----
-* Immunology
-    * [How the Immune System Works](contents/bHISW/book_info.md)
-        * [Lecture 1: An Overview](contents/bHISW/lecture_1.md)
+* Python
+    * [Basics](python/basics/cheatsheet.md)
+    * [NumPy](python/numpy/cheatsheet.md)
+    * [Pandas](python/pandas/cheatsheet.md)
+    * [PyGame](python/pygame/cheatsheet.md)
 
 -----
-* Machine Learning
-    * Articles
-        * [Language is primarily a tool for communication rather than thought](contents/articles/evelina2024language.md)
-    * [Causal Inference: The Mixtape](contents/bCITM/bCITM_book_info.md)
+* R
+    * [Basics](r/basics/cheatsheet.md)
+    * [Tidyverse](r/tidyverse/cheatsheet.md)
+    * [ggplot2](r/ggplot2/cheatsheet.md)
+    * [ComplexHeatmap](r/complexheatmap/cheatsheet.md)
 
 -----
-* Pygame
-    * [Writing a Game in Python with Pygame](contents/wWGPP/wWGPP_info.md)
-        * [Part 1](contents/wWGPP/wWGPP_part1.md)
-        * [Part 2](contents/wWGPP/wWGPP_part2.md)
-        * [Part 3](contents/wWGPP/wWGPP_part3.md)
-        * [Part 4](contents/wWGPP/wWGPP_part4.md)
+* Linux
+    * [Basics](other/linux/cheatsheet.md)
 
 -----
-* [Appendix](contents/appendix.md)
+* Git
+    * [Git](other/git/cheatsheet.md)
+    * [GitHub Pages](other/git/github_pages.md)
+    * [Gitbook](other/git/gitbook.md)
 

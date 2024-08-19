@@ -1,7 +1,5 @@
 # Introduction
 
-Gitbook Website: https://lyeoyeong.github.io/Plover
+Gitbook Website: https://cosrosea.github.io/Plover
 
-Notes of Interesting Book Chapters, Papers, and Talks.
-
-Chinese Translation of Selected Articles.
+一些教程的学习笔记与中文翻译。

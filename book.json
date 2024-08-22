@@ -2,9 +2,11 @@
     "plugins": [
         "hide-element"
     ],
+
     "theme-default": {
         "showLevel": true
     },
+
     "pluginsConfig": {
         "hide-element": {
             "elements": [".gitbook-link"]
@@ -12,10 +14,12 @@
     },
 
     "plugins": [
-        "emphasize","splitter"
+        "splitter"
     ],
 
     "plugins": [
         "bibtex-cite"
-    ]
+    ],
+
+    "plugins": ["emphasize"]
 }

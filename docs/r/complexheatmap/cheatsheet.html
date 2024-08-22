@@ -17,7 +17,7 @@
     
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-bibtex-cite/style.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
                 
             
                 
@@ -60,6 +60,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
+    
+    <link rel="next" href="single_heatmap.html" />
     
     
     <link rel="prev" href="../ggplot2/cheatsheet.html" />
@@ -178,14 +180,14 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.1.4.1" data-path="../../python/pygame/cheatsheet.html">
+        <li class="chapter " data-level="2.1.4.1" >
             
-                <a href="../../python/pygame/cheatsheet.html">
+                <span>
             
                     
-                    Basics
+                    [Tutorial]
             
-                </a>
+                </span>
             
 
             
@@ -271,6 +273,64 @@
                 </a>
             
 
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1" data-path="single_heatmap.html">
+            
+                <a href="single_heatmap.html">
+            
+                    
+                    Single Heatmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.2" data-path="heatmap_lists.html">
+            
+                <a href="heatmap_lists.html">
+            
+                    
+                    A List of Heatmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.3" data-path="decoration.html">
+            
+                <a href="decoration.html">
+            
+                    
+                    Decoration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.4" data-path="specialized.html">
+            
+                <a href="specialized.html">
+            
+                    
+                    Specialized Heatmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -441,7 +501,61 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="complexheatmap">ComplexHeatmap</h1>
+                                <h1 id="complexheatmap-simple-guide">ComplexHeatmap Simple Guide</h1>
+<h3 id="about">About</h3>
+<ul>
+<li><p>Install the up-to-date version by:</p>
+<pre><code>library(devtools)
+install_github(&quot;jokergoo/ComplexHeatmap&quot;)
+</code></pre></li>
+<li><p>For the full documentation, see: <a href="https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html" target="_blank">https://jokergoo.github.io/ComplexHeatmap-reference/book/index.html</a></p>
+</li>
+</ul>
+<h3 id="general-design">General Design</h3>
+<p>A single heatmap is composed by the heatmap body and the heatmap components.</p>
+<h3 id="complexheatmap-classes">ComplexHeatmap Classes</h3>
+<p>The ComplexHeatmap package is structured using several key classes:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Class Type</strong></th>
+<th><strong>Class Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Main Class</strong></td>
+<td><code>Heatmap</code></td>
+<td>Represents a single heatmap with data, titles, names, dendrograms, and annotations.</td>
+</tr>
+<tr>
+<td><strong>Main Class</strong></td>
+<td><code>HeatmapAnnotation</code></td>
+<td>Defines row and column annotations, either as part of a heatmap or standalone.</td>
+</tr>
+<tr>
+<td><strong>Main Class</strong></td>
+<td><code>HeatmapList</code></td>
+<td>A collection of multiple heatmaps and their annotations.</td>
+</tr>
+<tr>
+<td><strong>Supporting Class</strong></td>
+<td><code>SingleAnnotation</code></td>
+<td>Represents a single row or column annotation within a heatmap.</td>
+</tr>
+<tr>
+<td><strong>Supporting Class</strong></td>
+<td><code>ColorMapping</code></td>
+<td>Manages the mapping of data values to colors for the heatmap and annotations.</td>
+</tr>
+<tr>
+<td><strong>Supporting Class</strong></td>
+<td><code>AnnotationFunction</code></td>
+<td>Allows for creating custom, user-defined annotations.</td>
+</tr>
+</tbody>
+</table>
 
                                 
                                 </section>
@@ -469,10 +583,14 @@
 
             
                 
-                <a href="../ggplot2/cheatsheet.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: ggplot2">
+                <a href="../ggplot2/cheatsheet.html" class="navigation navigation-prev " aria-label="Previous page: ggplot2">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="single_heatmap.html" class="navigation navigation-next " aria-label="Next page: Single Heatmap">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -481,7 +599,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ComplexHeatmap","level":"3.1.4","depth":2,"next":{"title":"Linux","level":"4.1","depth":1,"ref":"","articles":[{"title":"Basics","level":"4.1.1","depth":2,"path":"other/linux/cheatsheet.md","ref":"other/linux/cheatsheet.md","articles":[]}]},"previous":{"title":"ggplot2","level":"3.1.3","depth":2,"path":"r/ggplot2/cheatsheet.md","ref":"r/ggplot2/cheatsheet.md","articles":[]},"dir":"ltr"},"config":{"plugins":["bibtex-cite"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-element":{"elements":[".gitbook-link"]},"bibtex-cite":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"bib":[{"citationKey":"CHAFFIN2022SINGLE","entryType":"ARTICLE","entryTags":{"TITLE":"Single-nucleus profiling of human dilated and hypertrophic cardiomyopathy","AUTHOR":"Chaffin, Mark and Papangeli, Irinna and Simonson, Bridget and Akkad, Amer-Denis and Hill, Matthew C and Arduini, Alessandro and Fleming, Stephen J and Melanson, Michelle and Hayat, Sikander and Kost-Alimova, Maria and others","JOURNAL":"Nature","VOLUME":"608","NUMBER":"7921","PAGES":"174--180","YEAR":"2022","PUBLISHER":"Nature Publishing Group"}},{"citationKey":"ZHANG2022POLYGENIC","entryType":"TECHREPORT","entryTags":{"TITLE":"Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data","AUTHOR":"Zhang, Martin Jinye and Hou, Kangcheng and Dey, Kushal K and Sakaue, Saori and Jagadeesh, Karthik A and Weinand, Kathryn and Taychameekiatchai, Aris and Rao, Poorvi and Pisco, Angela Oliveira and Zou, James and others","YEAR":"2022","INSTITUTION":"Nature Publishing Group"}},{"citationKey":"KONIECZNY2022INTERLEUKIN","entryType":"ARTICLE","entryTags":{"TITLE":"Interleukin-17 governs hypoxic adaptation of injured epithelium","AUTHOR":"Konieczny, Piotr and Xing, Yue and Sidhu, Ikjot and Subudhi, Ipsita and Mansfield, Kody P and Hsieh, Brandon and Biancur, Douglas E and Larsen, Samantha B and Cammer, Michael and Li, Dongqing and others","JOURNAL":"Science","VOLUME":"377","NUMBER":"6602","PAGES":"eabg9302","YEAR":"2022","PUBLISHER":"American Association for the Advancement of Science"}},{"citationKey":"FROST2020VARIANCE","entryType":"ARTICLE","entryTags":{"TITLE":"Variance-adjusted Mahalanobis (VAM): a fast and accurate method for cell-specific gene set scoring","AUTHOR":"Frost, Hildreth Robert","JOURNAL":"Nucleic acids research","VOLUME":"48","NUMBER":"16","PAGES":"e94--e94","YEAR":"2020","PUBLISHER":"Oxford University Press"}},{"citationKey":"RESHEF2022CO","entryType":"ARTICLE","entryTags":{"TITLE":"Co-varying neighborhood analysis identifies cell populations associated with phenotypes of interest from single-cell transcriptomics","AUTHOR":"Reshef, Yakir A and Rumker, Laurie and Kang, Joyce B and Nathan, Aparna and Korsunsky, Ilya and Asgari, Samira and Murray, Megan B and Moody, D and Raychaudhuri, Soumya","JOURNAL":"Nature Biotechnology","VOLUME":"40","NUMBER":"3","PAGES":"355--363","YEAR":"2022","PUBLISHER":"Nature Publishing Group"}}],"gitbook":"*","theme-default":{"showLevel":true}},"file":{"path":"r/complexheatmap/cheatsheet.md","mtime":"2024-08-19T13:49:39.755Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-08-19T16:11:27.013Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ComplexHeatmap","level":"3.1.4","depth":2,"next":{"title":"Single Heatmap","level":"3.1.4.1","depth":3,"path":"r/complexheatmap/single_heatmap.md","ref":"r/complexheatmap/single_heatmap.md","articles":[]},"previous":{"title":"ggplot2","level":"3.1.3","depth":2,"path":"r/ggplot2/cheatsheet.md","ref":"r/ggplot2/cheatsheet.md","articles":[]},"dir":"ltr"},"config":{"plugins":["emphasize"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"hide-element":{"elements":[".gitbook-link"]},"emphasize":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*","theme-default":{"showLevel":true}},"file":{"path":"r/complexheatmap/cheatsheet.md","mtime":"2024-08-22T14:22:25.762Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-08-22T14:23:39.889Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
